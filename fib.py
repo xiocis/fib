@@ -1,3 +1,5 @@
+import time
+
 num1=1
 num2=1
 n=3
@@ -8,4 +10,5 @@ while(i<n):
     num2=fib
     n+=1
     i+=1
+    time.sleep(0.5)
     print(fib, " ")
